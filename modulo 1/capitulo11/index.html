@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+        <h1>imagens dinâmicas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia quia accusamus velit hic ea explicabo fugiat aliquam in nam! Dolorem nostrum culpa quidem aut quis blanditiis molestias veritatis necessitatibus totam.</p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/IMG-P.png" type="image/png ">
+            <source media="(max-width: 1050px )" srcset="imagens/IMG-M.png" type="image/png">
+            <img src="imagens/IMG-G.png" alt="imgg">
+        </picture>
+        <h1>reproduzir audio</h1>
+       
+        <audio preload="metadata" autoplay controls loop>
+            <source src="media/14 Hurt - Nine Inch Nails.mp3" type="audio/mpeg">
+        </audio>
+        <video src="media/meu video.mkv" width="500" poster="imagens/IMG-P.png" controls autoplay loop>
+            <source src="media/meu video.mkv" type="video/mkv">
+        </video>
+        <h3>Inserindo Videos do Youtube</h3>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/19eC0HtadeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Inserindo Videos do Vimeo</h3>
+        <iframe src="https://player.vimeo.com/video/431025282?h=9ede2be561&loop=1&color=ff9933&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        
+
+
+    
+</body>
+</html>

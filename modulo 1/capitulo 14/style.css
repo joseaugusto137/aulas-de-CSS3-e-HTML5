@@ -1,0 +1,18 @@
+ 
+        h1 {
+            color: rgb(136, 75, 5);
+            background-color: rgb(178, 223, 96);
+        }
+        h2 {
+            color: darkmagenta;
+        }
+        p {
+            text-align: justify;
+        }
+        body {
+            background-color: rgb(190, 190, 201); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 15px;
+            
+        }
+        @charset "UTF-8"
+
+   
