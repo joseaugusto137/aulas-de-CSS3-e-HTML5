@@ -7,6 +7,48 @@
     <title>Formulário</title>
 </head>
 <body>
-    
+    <p>Exemplo de Formulário</p>
+    <form action="cadastro.js" method="post" autocomplete="on">
+       <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <option value=""select>---Escolha---</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="ES">Espirito Santo</option>
+                
+            </optgroup>
+            <optgroup label="Região Sul">
+                <option value="RG">Rio Grande do Sul</option>
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+            </optgroup>
+        </select>
+       </p>
+        <p>
+            <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option>Administrador</option>
+                    <option>Professor</option>
+                    <option>Desenvolvedor</option>
+                </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="80" rows="15"></textarea>
+        </p>
+
+        <!--Todo formulário que usa o método "get" tem o limite de 3 mil bits. Por isso, em alguns casos, é melhor utilizar o médoto "post"-->
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
 </body>
 </html>
